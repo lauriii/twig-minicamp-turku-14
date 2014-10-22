@@ -50,8 +50,11 @@
         <section>
           <section>
             <h4>Me:</h4>
+            <h3>Lauri Eskola</h3>
+            <img src="img/lauri.jpg">
+          </section>
+          <section>
             <h2>@lauriii</h2>
-            <h3>(Lauri Eskola)</h3>
           </section>
           <section>
             <h4>Twitter:</h4>
@@ -260,6 +263,21 @@
           <li>mark carver</li>        
           <li>mortendk</li>
         </ul>
+              </code>
+            </pre>
+         </section>
+         <section>
+            <h2>Loops</h2>
+            <pre>
+              <code>
+      <h2>Team Awesome</h2>
+      <ul>
+        {% for user in users %}
+          <li>{{ user.username}}</li>
+        {% else %}
+          <li>no results found</li>
+        {% endfor %}
+      </ul>
               </code>
             </pre>
           </section>
